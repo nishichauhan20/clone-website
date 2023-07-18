@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    
+    <link
+    rel="icon"
+    href="https://cdn.icon-icons.com/icons2/729/PNG/512/flipkart_icon-icons.com_62718.png"
+    style="border-radius: 50%"
+  />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.0/css/all.min.css"
+    integrity="sha512-UJqci0ZyYcQ0AOJkcIkUCxLS2L6eNcOr7ZiypuInvEhO9uqIDi349MEFrqBzoy1QlfcjfURHl+WTMjEdWcv67A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link href="./style1.css" rel="stylesheet" />
+  <link href="loginStyle.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <header>
+        <!--nav start-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary nav-right navv-head ">
+          <div class="container-fluid">
+            <div class="head1">
+              <!--logo-->
+              <a class="navbar-brand" href="#"
+                ><img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/flipkart-095e08.svg"
+              /></a>
+              
+              <div class="search search-box">
+                <input
+                  type="text"
+                  placeholder="Search for Products, Brands and More"
+                />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+  
+              <ul class="navbar-nav mr-auto head2">
+              <!-- Login -->
+              <li class="nav-item">
+            <div class="col dropdown login nav-item ">
+              <button class="btn bg-white text-primary" type="button" id="loginMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="true">
+                  Login
+              </button>
+              <div class="dropdown-menu login-list col-12 aria-labelledby=" loginMenuButton>
+                  <div class="d-flex">
+                      <h6 class="ml-md-1">New Customer?</h6>
+                      <a href="login.html" class="ml-auto mr-2" id="signUp">Sign Up</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex">
+                      <i class="fa fa-user-circle text-primary mt-2 ml-2" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">My Profile</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex">
+                      <i class="fa fa-plus text-primary mt-2 ml-2" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">Flipkart Plus Zone</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex">
+                      <i class="fa fa-book text-primary mt-2 ml-2" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">Orders</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex">
+                      <i class="fa fa-heart text-primary mt-2 ml-2" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">Wishlist</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex">
+                      <i class="fa fa-chess-bishop text-primary mt-2 ml-2" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">Rewards</a>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <div class="d-flex">
+                      <i class="fa fa-gift text-primary mt-2 ml-2" aria-hidden="true"></i>
+                      <a class="dropdown-item" href="">Gift Cards</a>
+                  </div>
+              </div>
+            </div>
+             </li>
+            
+            
+            
+            
+             
+                
+             
+               <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Become a Seller </a
+                    >
+                  </li>
+                  
+                  
+  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><b>Cart</b></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      More
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Notification Preferences</a>
+                      <a class="dropdown-item" href="#">Sell On Flipkart</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">24x7 Customer Care</a>
+                    </div>
+                  </li>
+                  
+                    
+                </ul>
+             
+           
+          </div>
+        </nav>
+      </header>
+      <!-- End Header -->
+  <br/>
+<br/>
+    <div class="container">
+    <div class="left">
+        <h1 class="heading">LOGIN</h1>
+        <p class="heading__desc">Get Access to your Order. Wishlist and Recommendation</p>
+    </div>
+    <div class="right">
+        <div class="input-group">
+            <input class="input" type="text" placeholder="---" />
+            <label class="label" >Enter Email/Mobile Number</label>
+            <div class="line"></div>
+        </div>
+        <div class="input-group  ">
+            <input class="input" type="password" placeholder="---" />
+            <label class="label" >Enter password</label>
+            <div class="line"></div>
+            <a href="" class="link custum3">Forget?</a>
+        </div>
+        <p class="para"> By continuing, you agree to Flipkart's <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</p>
+        <button class="btn">Login</button>
+   <center><p class="para ">OR</p></center>  
+      <button class="btn btn--white ">Request OTP</button> 
+     <div class="bottom"> <a href="" class="link link--bottom">New to Flipkart? Create an account</a></div>
+    </div>
+</div>
+<br/>
+<br/>
+<!-- Footer -->
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col ml-md-3 Footer">
+            <h6>ABOUT</h6>
+            <div>
+                <a href="#">Contact Us</a>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Flipkart Stories</a>
+                <a href="#">Press</a>
+                <a href="#">Flipkart</a>
+                <a href="#">Wholesale</a>
+            </div>
+        </div>
+        <div class="col Footer">
+            <h6>HELP</h6>
+            <div>
+                <a href="#">Payments</a>
+                <a href="#">Shipping</a>
+                <a href="#">Cancellation & Returns</a>
+                <a href="#">FAQ</a>
+                <a href="#">Report</a>
+                <a href="#">Infringement</a>
+            </div>
+        </div>
+        <div class="col Footer">
+            <h6>POLICY</h6>
+            <div>
+                <a href="#">Return Policy</a>
+                <a href="#">Term of Use</a>
+                <a href="#">Security</a>
+                <a href="#">Privacy</a>
+                <a href="#">Sitemap</a>
+                <a href="#">EPR Compliance</a>
+            </div>
+        </div>
+        <div class="col Footer">
+            <h6>SOCIAL</h6>
+            <div>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">You Tube</a>
+            </div>
+        </div>
+        <div class="col Footer border-left border-secondary">
+            <h6>Mail Us:</h6>
+            <div>
+                <p>Flipkart Internet Private Limited,</p>
+                <p>Buildings Alyssa, Begonia &</p>
+                <p>Clove Embassy Tech Village,</p>
+                <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                <p>Bengaluru, 560103,</p>
+                <p>Karnataka, India</p>
+            </div>
+        </div>
+        <div class="col Footer">
+            <h6>Registered Office Address:</h6>
+            <div>
+                <p>Flipkart Internet Private Limited,</p>
+                <p>Buildings Alyssa, Begonia &</p>
+                <p>Clove Embassy Tech Village,</p>
+                <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+                <p>Bengaluru, 560103,</p>
+                <p>Karnataka, India</p>
+                <p>CIN : U51109KA2012PTC066107</p>
+                <p>Telephone: <a href="#" class="text-primary">1800 208 9898</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row border-top mt-5 py-3 border-secondary">
+        <div class="col">
+            <i class="fa fa-briefcase text-warning"></i>
+            <span class="custum3">Sell On Flipkart</span>
+        </div>
+        <div class="col">
+            <i class="fab fa-stumbleupon-circle text-warning"></i>
+            <span class=" custum3">Advertise</span>
+        </div>
+        <div class="col">
+            <i class="fa fa-gift text-warning"></i>
+            <span class=" custum3">Gift Cards</span>
+        </div>
+        <div class="col">
+            <i class="fa fa-question-circle text-warning "></i>
+            <span class=" custum3">Help Center</span>
+        </div>
+        <div class="col col-md-2 col-xs-4">
+            <span>&copy; 2007-2023 <spam class="custum4 custum3">Flipkart.com</spam></span>
+        </div>
+       
+        <div class="col col-md-5 col-xs-6 custum3 custum4  ">
+            <img class="img-fluid" src="//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/payment-method_7934bc.svg">
+        </div>
+        <div class="col col-md-2 col-xs-4">
+          <span>&copy;copyright/ Nishi Chauchan</span>
+      </div>
+    </div>
+
+</footer>
+
+
+   <!--end discription ends-->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script href="script.js"></script>
+
+</body>
+</html>

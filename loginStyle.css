@@ -1,0 +1,185 @@
+@media only screen and (max-width:2000px ){
+
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 800px !important;}
+    
+
+@media only screen and (max-width:778px ){
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 720px !important;
+    }
+    .custum4{
+        display:none !important;}
+}
+}
+@media only screen and (max-width:400px ){
+.custum3{
+    display:none !important;}
+    .label{
+        font-size: small;
+    }
+    .heading__desc{
+        font-size: small;
+    }
+    .para{
+        font-size: small;
+    }
+    .link--bottom{
+        font-size: small;
+    }
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ddd;
+    display: grid;
+    
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background-color: #fff;
+    
+    max-width: 30rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+.left{
+    background-color: #2874f0;
+    padding: 3rem 2rem;
+    background-image: url('https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png');
+    background-repeat: no-repeat;
+    background-position: center 85%;
+}
+.right{
+    padding:3rem 2rem 1.6rem; 
+}
+.heading{
+    color: #fff;
+    font-weight: 500;
+    
+    margin-bottom: 1rem;
+}
+.heading__desc{
+    color: #fff;
+    font-size: 1rem;
+    
+}
+.input-group{
+    position: relative;
+    margin-bottom: 1rem;
+}
+.input{
+    padding: 0.5rem 0;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #878787;
+    outline: none;
+   font-size: 1.1rem;
+}
+.label{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #878787;
+    pointer-events: none;
+    transform-origin: left;
+    transition: transform 0.2s ease;
+}
+.input::placeholder{
+    visibility: hidden;
+}
+.input:focus ~ label,
+.input:not(:placeholder-shown) ~ label{
+    transform: translateY(-140%) scale(0.8);
+}
+.line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #2874f0;
+    transform: scaleX(0);
+    transition: transform .4s ease-in-out;
+}
+
+.input:focus .line,
+.input:not(:placeholder-shown) ~ .line{
+    transform:scaleX(1);
+
+}
+a{
+    text-decoration: none;
+    color: #2874f0;
+}
+.input-group .link{
+    position: absolute;
+    right: 0;
+    top:  50%;
+    transform:translateY(-50%);
+}
+.input-group .link:hover{
+    text-decoration: underline;
+}
+.para{
+   font-size: 0.75rem; 
+   margin-top: 2rem;
+   color:#878787
+}
+.btn{
+    width:100%;
+    margin-top: 1rem;
+    border: none;
+    background-color: #fb641b;
+    padding: 1rem;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px0 rgba(0,0,0,0.1);
+    color: #fff;
+    font-size: 1.025rem;
+}
+.btn--white{
+    color:#2874f0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    margin-top: 0;
+}
+.bottom{
+   text-align: center; 
+}
+.link--bottom{
+    display: inline-block;
+    margin-top: 5rem;
+    
+}
+.login{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.login button{
+    border-radius: 0;
+    border: 0;
+padding: 8px;
+margin-top: 0px;
+    /* padding: 0.375rem 2.75rem; */
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.login-list a{
+    font-size: .8em;
+}
+
+#signUp{
+    font-size: 1em;
+}
